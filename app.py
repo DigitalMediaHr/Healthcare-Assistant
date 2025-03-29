@@ -79,8 +79,8 @@ def handle_user_input(user_question):
             st.markdown(bot_response)
 
 def main():
-    st.set_page_config(page_title="Assistant", layout="wide")
-    st.title("Healthcare Assistant")
+    st.set_page_config(page_title="Lifestyle Medicine Expert", layout="wide")
+    st.title("Dr. Sunil Lifestyle Medicine Expert")
     if "messages" not in st.session_state:
         st.session_state.messages = []
     with st.sidebar:
